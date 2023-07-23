@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>List Of Expenses</title>
+</head>
+
+<body>
+    <main>
+        <div id="app">
+            <header>
+                <h1>List Of Expenses</h1>
+
+                <p>1 GBP = <span id="eur"></span> EUR</p>
+            </header>
+
+            <div id="form-1">
+                <div id="column-1">
+                    <div class="row">
+                        <p>Title of transaction</p>
+
+                        <input type="text" id="title-input">
+                    </div>
+
+                    <div class="row">
+                        <p>Amount (in GBP)</p>
+
+                        <input type="number" id="amount-input">
+                    </div>
+                </div>
+
+                <div id="column-2">
+                    <button>
+                        Add
+                    </button>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Amount GBP</th>
+                        <th>Amount EUR</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+            </table>
+
+            <div>Sum: <span id="sumgbp"></span> GBP (<span id="sumeur"></span> EUR)</div>
+
+            <div id="form-2">
+                <div>EUR exchange rate: <input id="exchange-rate" type="number"></div>
+                <button id="apply-button">Apply</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

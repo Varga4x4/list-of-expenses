@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    /* border: 2px solid black; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#app {
+    width: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    /* border: 2px solid purple; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-1 {
+    /* border: 2px solid red; */
+    min-height: 110px;
+    display: flex;
+}
+
+.row {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+input {
+    width: 60%;
+    height: 50%;
+}
+
+#column-1 {
+    /* border: 2px solid yellow; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#column-2 {
+    /* border: 2px solid green; */
+    width: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 22px;
+}
+
+button {
+    cursor: pointer;
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+td {
+    border: 1px solid red;
+}
+
+#form-2 {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+#exchange-rate {
+    width: 25%;
+    height: 100%;
+}
+
+#apply-button {
+    width: 20%;
+}
